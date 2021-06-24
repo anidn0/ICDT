@@ -1,0 +1,86 @@
+
+.one {
+   background:  #e4f0f8;
+   position: relative;
+   left: 200px;
+   top: 140px;
+   width: 1000px;
+   height: 720px;
+   margin: 20px;
+   }
+.two {
+   background: white;
+   position: relative;
+   left: 200px;
+   top: 100px;
+   width: 40%;
+   height: 400px;
+   margin: 20px;
+   font-size: 12px;
+   font-family: helvetica, arial; 
+   font: italic; color: Darkgrey;  
+}
+.three {
+   background: WHITE;
+   position: relative;
+   top: 30px;
+   text-align: center;
+   font-family: helvetica, arial;
+   font-size: 12px;
+   
+    }
+.four {
+   background: WHITE;
+   text-align: justifyleft;
+   position: relative;
+   width:30%;
+   top: 40px;
+   height: 80px ;
+  }
+.five{
+   float:right;
+   position: relative;
+   top: 30px;
+   height: 120px ;
+  }
+.six {
+   position: relative;
+   background-color: rgb(0, 162, 255);
+   box-align: center;
+   left: 30%;
+   width: 30%;
+   border-top: 50vmax;
+   padding-top: 5px;
+   font-size: 28px;
+   size: 40px;
+   text-align: center;
+   position: relative;
+   top: 100px;
+   height: 30px;
+  }
+  .sixb {
+   box-align: center;
+   background-color: gallery;
+   padding-top: 200px;
+   size: 40px;
+   text-align: center;
+   position: relative;
+   top: 10px;
+   height: 120px ;
+  }
+   .seven{
+   background-color: gallery;
+   border-top: 200vmax;
+   padding-top: 20px;
+   size: 40px;
+   text-align: center;
+   position: relative;
+   top: 100px;
+   height: 120px ;
+  }
+  .what {
+   color: Darkgrey;
+   display: flex;
+   justify-content: left;
+
+}
