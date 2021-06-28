@@ -1,0 +1,41 @@
+body {
+ font:  nanum brush script;
+ background-color: #ccc
+
+}
+
+img {
+   max-width: 80%;
+   max-height: 80%;
+}
+.row {
+   display: flex;
+   width: 100%;
+ }
+ 
+ .row div {
+   width: 50%;
+ }
+ 
+ .noMargin {
+   margin: 0px;
+ }
+ 
+ .one {
+   
+   justify-content: left;
+ }
+ 
+ .two {
+   
+   justify-content: right;
+ }
+ 
+ .three {
+   
+   justify-content: left;
+}
+ }
+ 
+ .four {
+      justify-content: right;
