@@ -1,0 +1,115 @@
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans';font-size: 22px;
+  color: #69696a;
+  background-color: #f9fafc;
+  }
+
+  a {
+    text-decoration: none;
+    color: #69696a;
+   }
+
+.one-buttons {
+background-color: #000;
+text-align: center;
+color: #fff;
+border-radius: 25px;
+margin-top: 10px;
+}
+.two {
+border-left: 5px solid #69696a;
+padding-left: 10px;
+}
+
+footer {
+   background-color: rgba(247, 193, 162, 0.7);
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+}
+.alignright {
+  float: right;
+}
+
+/* So long as the screen is not this small show  */
+  @media only screen and (min-width: 768px) {
+      html { font-size: 80%; }
+      .circle1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        right: 100px;
+        background-color: rgba(247, 136, 167,0.6);
+      }
+      .circle2 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        right: 50px;
+        background-color: rgba(247, 193, 162, 0.7);
+        }
+          
+       .circle3 {
+          width: 50px;
+          height: 50px;
+          border-radius: 70%;
+          position: absolute;
+          right: 80px;
+          background-color: rgba(207, 130, 213, 0.6);
+        }  
+                
+        .flex-container {
+          display: flex;
+          flex-direction: row;
+          
+        }
+
+        .flex-item-left {
+          justify-content: flex-start;
+          padding-right: 200px;
+          flex: 20%;
+        }
+        .flex-item-right {
+          justify-content: flex-end;
+          padding: 10px;
+          flex: 20%;
+                }
+
+        .flex-item-right2 {
+          justify-content: flex-end;
+          padding: 10px;
+          flex: 20%;
+                }
+          }
+      /*
+   @media  only screen and (min-width: 1024px) {
+    html { font-size: 200%; }
+      .flex-container {
+      display: flex;
+              
+    }
+  */
+/* if the screen is less then  */
+   @media  only screen and (max-width: 760 px) {
+      html { font-size: 70%; }
+        .flex-container {
+        display: flex;
+            
+      }
+
+  }
+
+  /*
+    @media screen and (min-width: 320px)  {
+    .topnav {
+       float: none;
+       width: 100%;
+       background-color: green;
+     
+    }
+    */
